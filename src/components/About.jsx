@@ -132,7 +132,7 @@ const About = () => {
                     [
                       "Designed Python Django-based backend system for MINE application, a data marketplace, featuring APIs for three key components namely notification centre, update centre, and delivery system, tailored to meet end-user needs.",
                       "Constructed Apache Spark ETL based data pipeline solution utilized by AstraZeneca for executing a comprehensive data quality assessment workflow. This included extracting data from Amazon S3, conducting in-depth analysis, storing the derived insights in Redshift, and establishing seamless real-time visualisation in POWER BI through direct query integration.",
-                      "Implemented Apache NiFi workflow for real-time data ingestion, seamlessly transferring data from S3 to Redshift.",
+                      "Collaborated within the tech team to implement an Apache NiFi workflow for real-time data ingestion, seamlessly transferring data from S3 to Redshift.",
                       "Completed a KPI analysis framework using Pandas, later optimising with Polars to achieve a remarkable ~ 90% reduction in execution time, while also orchestrating multiple data pipelines using Apache Airflow within Docker containers for streamlined and efficient data processing."
                     ]
                 },
