@@ -120,7 +120,7 @@ const About = () => {
                     description: 
                     [
                       "Developed dktbricks, Python library to enable the team to launch JAR files on Databricks via a terminal-based UI, with configurable options for cluster size and number of worker nodes.",
-                      "Refactored some data pipelines and optimized Airflow’s retry behavior by making it conditional on specific error types, reducing Databricks compute costs by 40%",
+                      "Refactored some data pipelines and optimized Airflow’s retry behavior by making it conditional on specific error types, reducing Databricks compute costs by 40%.",
                       "Built a Spark-based ETL pipeline following the Medallion Architecture: implemented API data extraction via AWS Lambda into the Bronze layer, developed Scala-based transformations for Silver and Gold layers with Delta Tables on Databricks, and orchestrated workflows using Airflow for scheduling and triggering jobs across the cluster.",
                     ]
                 },
@@ -131,7 +131,6 @@ const About = () => {
                   description: 
                     [
                       "Designed Python Django-based backend system for MINE application, a data marketplace, featuring APIs for three key components namely notification centre, update centre, and delivery system, tailored to meet end-user needs.",
-                      "Engineered the backend architecture and core functionalities of the MINE application, optimising Spark-based ETL and non-Spark pipelines, which enhanced data processing speed by 40% on the Amazon EMR cluster.",
                       "Constructed Apache Spark ETL based data pipeline solution utilized by AstraZeneca for executing a comprehensive data quality assessment workflow. This included extracting data from Amazon S3, conducting in-depth analysis, storing the derived insights in Redshift, and establishing seamless real-time visualisation in POWER BI through direct query integration.",
                       "Implemented Apache NiFi workflow for real-time data ingestion, seamlessly transferring data from S3 to Redshift.",
                       "Completed a KPI analysis framework using Pandas, later optimising with Polars to achieve a remarkable ~ 90% reduction in execution time, while also orchestrating multiple data pipelines using Apache Airflow within Docker containers for streamlined and efficient data processing."
